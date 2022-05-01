@@ -21,9 +21,9 @@ environ.Env.read_env(env_file='.env')
 SECRET_KEY =  'django-askajg6rwlu@rl3jkaskj_n)ozj-hg(u4$&kn!z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://drfsimplejwt.herokuapp.com', '*']
 
 
 # Application definition
