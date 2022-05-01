@@ -16,7 +16,7 @@ schema_view = get_schema_view(
    openapi.Info(
       title="BOPGEEK API",
       default_version='v1',
-      description="an API system that contains AUTH , expense model",
+      description="an API system that contains AUTH , EXPENSE model and INCOME Model",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="contact@snippets.local"),
       license=openapi.License(name="BSD License"),
